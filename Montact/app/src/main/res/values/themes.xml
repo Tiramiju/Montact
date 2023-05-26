@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Montact" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/statusbar</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/primaryTextColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:colorBackground">@color/primaryColor</item>
+    </style>
+
+    <style name="AppbarMontact" parent="Widget.MaterialComponents.TabLayout">
+        <item name="android:background">@color/primaryDarkColor</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:colorBackground">@color/primaryColor</item>
+    </style>
+
+    <style name="ButtonMontact" parent="Widget.MaterialComponents.Button.OutlinedButton.Icon">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="iconTint">@color/primaryTextColor</item>
+    </style>
+
+    <style name="FilledEditTextMontact" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeColor">@color/secondaryDarkColor</item>
+        <item name="startIconTint">@color/secondaryDarkColor</item>
+        <item name="android:textColorHint">@color/textMoreLighter</item>
+        <item name="hintTextColor">@color/textMoreLighter</item>
+        <item name="boxBackgroundColor">@color/edit_bg</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    <style name="OutlinedEditTextMontact" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/secondaryDarkColor</item>
+        <item name="startIconTint">@color/secondaryDarkColor</item>
+        <item name="android:textColorHint">@color/textMoreLighter</item>
+        <item name="hintTextColor">@color/textMoreLighter</item>
+        <item name="boxBackgroundColor">@color/edit_bg</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    <style name="TabLayoutMontact" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabIndicatorColor">@color/secondaryColor</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/primaryDarkColor</item>
+        <item name="tabTextColor">@color/secondaryColor</item>
+        <item name="tabIconTint">@color/secondaryLightColor</item>
+    </style>
+
+    <style name="TextViewMontact" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+</resources>

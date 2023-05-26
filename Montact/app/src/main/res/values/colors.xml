@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#35353f</color>
+    <color name="primaryLightColor">#5f5f6a</color>
+    <color name="primaryDarkColor">#0f0f19</color>
+    <color name="secondaryColor">#1eb980</color>
+    <color name="secondaryLightColor">#62ecb0</color>
+    <color name="secondaryDarkColor">#008853</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="statusbar">#17171B</color>
+
+    <color name="edit_bg">#4F4F5D</color>
+    <color name="textMoreLighter">#D1D1D1</color>
+
+    <color name="orange">#FF6859</color>
+</resources>
